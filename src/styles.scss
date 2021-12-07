@@ -1,1 +1,134 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(~fullpage.js/dist/fullpage.min.css);
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  // font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: underline;
+  color: initial;
+  &:visited {
+    color: initial;
+  }
+}
+
+span,
+a,
+p {
+  &::selection {
+    background-color: #213140;
+    color: #fff;
+  }
+}
+
+/* Color Theme Swatches in Hex */
+.Dusklands-1-hex {
+  color: #011126;
+}
+.Dusklands-2-hex {
+  color: #6f87a6;
+}
+.Dusklands-3-hex {
+  color: #213140;
+}
+.Dusklands-4-hex {
+  color: #485f73;
+}
+.Dusklands-5-hex {
+  color: #61788c;
+}
+.Dusklands-6-hex {
+  color: #bfbfbf;
+}
+
+/* Color Theme Swatches in RGBA */
+.Dusklands-1-rgba {
+  color: rgba(0, 17, 38, 1);
+}
+.Dusklands-2-rgba {
+  color: rgba(111, 134, 165, 1);
+}
+.Dusklands-3-rgba {
+  color: rgba(33, 49, 63, 1);
+}
+.Dusklands-4-rgba {
+  color: rgba(72, 94, 114, 1);
+}
+.Dusklands-5-rgba {
+  color: rgba(96, 119, 140, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.Dusklands-1-hsla {
+  color: hsla(213, 96, 7, 1);
+}
+.Dusklands-2-hsla {
+  color: hsla(213, 23, 54, 1);
+}
+.Dusklands-3-hsla {
+  color: hsla(208, 31, 19, 1);
+}
+.Dusklands-4-hsla {
+  color: hsla(208, 22, 36, 1);
+}
+.Dusklands-5-hsla {
+  color: hsla(208, 18, 46, 1);
+}
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex {
+  color: #8a7e69;
+}
+.My-Color-Theme-2-hex {
+  color: #fff5e3;
+}
+.My-Color-Theme-3-hex {
+  color: #ccbda1;
+}
+.My-Color-Theme-4-hex {
+  color: #4b6380;
+}
+.My-Color-Theme-5-hex {
+  color: #97aeca;
+}
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba {
+  color: rgba(138, 126, 105, 1);
+}
+.My-Color-Theme-2-rgba {
+  color: rgba(255, 245, 227, 1);
+}
+.My-Color-Theme-3-rgba {
+  color: rgba(204, 189, 161, 1);
+}
+.My-Color-Theme-4-rgba {
+  color: rgba(75, 99, 128, 1);
+}
+.My-Color-Theme-5-rgba {
+  color: rgba(151, 174, 202, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla {
+  color: hsla(38, 13, 47, 1);
+}
+.My-Color-Theme-2-hsla {
+  color: hsla(38, 100, 94, 1);
+}
+.My-Color-Theme-3-hsla {
+  color: hsla(39, 29, 71, 1);
+}
+.My-Color-Theme-4-hsla {
+  color: hsla(212, 26, 39, 1);
+}
+.My-Color-Theme-5-hsla {
+  color: hsla(212, 32, 69, 1);
+}
