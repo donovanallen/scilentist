@@ -1,0 +1,41 @@
+.about-container {
+    height: 100%;
+    width: 100%;
+    // background-color: #61788C;
+    background-color: #8a7e69;
+    // background: linear-gradient(90deg, #61788C 0%, #BFBFBF 80%);
+    background: linear-gradient(180deg, #8a7e69 0%, #ccbda1 80%);
+    display: flex;
+  
+    .about-text {
+      // border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      &-container {
+        width: 75%;
+        .about-text-header {
+          span {
+            font-family: "Canela", serif;
+            font-size: 60px;
+          }
+        }
+  
+        .about-text-content {
+          width: 75%;
+          span {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  
+    .about-photo {
+      // border: 1px solid green;
+    }
+  }
+  
+  .emphasis {
+    font-style: italic;
+  }
+  
